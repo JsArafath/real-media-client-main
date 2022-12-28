@@ -1,0 +1,13 @@
+.login-section{
+    width: 60%;
+    margin: 80px auto;
+    background-color: black;
+    padding: 50px 30px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 767px) {
+    .login-section{
+        width: 100%;
+    }
+}

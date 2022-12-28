@@ -1,0 +1,26 @@
+.post-section{
+    background-color: wheat;
+}
+.post-section .post-section{
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px 40px;
+    background-color: white;
+}
+.post-section .post-section h3{
+    font-size: 24px;
+    color: #492634;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.post-section .post-section textarea{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 776px) {
+    .post-section .post-section{
+        width: 75%;
+        padding: 40px 40px;
+    }
+}
